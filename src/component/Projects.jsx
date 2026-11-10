@@ -25,6 +25,15 @@ function Projects(){
             technology: "Technologies: React · JavaScript · Vite · CSS3 · HTML5 · Browser localStorage · Git · GitHub",
             liveLink: "https://vercel.com/extreem/todo-list",
             repository: "https://github.com/Ofoedu-Ifeanyi/Todo-list"
+        },
+        {
+            
+            id: 4,
+            name: "Personal Finance App",
+            description : "A full-stack frontend Personal Finance Management application built with React and Vite. It empowers users to track income and expenses in Naira (₦), set monthly category budgets with visual warning thresholds, visualize spending habits with interactive pie and bar charts, and generate downloadable CSV financial reports. Built with a local-first architecture using custom hooks, React Router, and Recharts.",
+            technology: "Technologies: React ·Vite ·JavaScript · React Router · CSS3 ·Recharts· HTML5 · Browser localStorage · Git · GitHub",
+            liveLink: "https://finance-app-three-silk.vercel.app",
+            repository: "https://github.com/Ofoedu-Ifeanyi/Finance-app"
         }
     ]
     return(
