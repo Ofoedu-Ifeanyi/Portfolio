@@ -14,7 +14,7 @@ function Projects(){
             name: "Nexus-saas-Dishboard",
             description : "A web-based analytics application built using React and TypeScript. It provides a centralized interface for monitoring business performance, analyzing revenue, managing customers, and configuring application settings.",
             technology: "Technologies:  CSS3, React, TypeScript, vite, React Router, Recharts, React Icons, Git and GitHub, vercel",
-            liveLink: "https://vercel.com/extreem/nexus-saa-s-dashboard",
+            liveLink: "https://nexus-saa-s-dashboard.vercel.app",
             repository: "https://github.com/Ofoedu-Ifeanyi/Nexus-SaaS-Dashboard"
         },
         {
@@ -23,7 +23,7 @@ function Projects(){
             name: "TodoList App",
             description : "A task management application built using React and JavaScript. It helps users organize daily activities by adding tasks, marking them as completed, deleting tasks, and assigning due dates.",
             technology: "Technologies: React · JavaScript · Vite · CSS3 · HTML5 · Browser localStorage · Git · GitHub",
-            liveLink: "https://vercel.com/extreem/todo-list",
+            liveLink: "https://todo-list-r7nd85yw5-extreem.vercel.app",
             repository: "https://github.com/Ofoedu-Ifeanyi/Todo-list"
         },
         {
