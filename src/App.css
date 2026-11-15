@@ -55,7 +55,7 @@ body{
   align-items: center;
   text-align: center;
   padding: 60px 8%;
-  background-color: #0d1117;
+  background-color: #171e29;
   box-sizing: border-box;
 }
 .hero_intro{
@@ -566,5 +566,65 @@ body{
   .footer__links {
     gap: 18px;
     flex-wrap: wrap;
+  }
+}
+/* --- Background Animation Setup --- */
+
+.app-container {
+  position: relative;
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  overflow: hidden; 
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+/* The Base Blob Style */
+.bg-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: 0; 
+  opacity: 0.6;
+  animation: float 12s infinite ease-in-out alternate;
+}
+
+/* Blob 1 - Purple (Matches your buttons) */
+.blob-1 {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(139, 92, 246, 0.4); 
+  top: -10%;
+  left: -10%;
+}
+
+/* Blob 2 - Dark Blue (Adds depth) */
+.blob-2 {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(59, 130, 246, 0.3);
+  bottom: 10%;
+  right: -5%;
+  animation-delay: -5s; /* Makes it move out of sync with the first blob */
+  animation-duration: 15s;
+}
+
+/* The Floating Animation */
+@keyframes float {
+  0% { 
+    transform: translate(0, 0) scale(1); 
+  }
+  100% { 
+    transform: translate(100px, 150px) scale(1.2); 
+  }
+}
+
+/* Accessibility: Turn off animation for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .bg-blob {
+    animation: none;
   }
 }
